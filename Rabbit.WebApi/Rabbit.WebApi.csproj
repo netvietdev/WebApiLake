@@ -36,6 +36,7 @@
     <Compile Include="Filters\ModelValidationFilterAttribute.cs" />
     <Compile Include="Filters\ValidationHandlers\DefaultValidationHandler.cs" />
     <Compile Include="Filters\ValidationHandlers\IValidationHandler.cs" />
+    <Compile Include="HttpResponseMessageExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
