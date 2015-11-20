@@ -34,7 +34,7 @@
     <Compile Include="Filters\ExceptionHandlers\CatchAllExceptionHandler.cs" />
     <Compile Include="Filters\ExceptionHandlers\IExceptionHandler.cs" />
     <Compile Include="Filters\ModelValidationFilterAttribute.cs" />
-    <Compile Include="Filters\ValidationHandlers\DefaultValidationHandler.cs" />
+    <Compile Include="Filters\ValidationHandlers\BadRequestValidationHandler.cs" />
     <Compile Include="Filters\ValidationHandlers\IValidationHandler.cs" />
     <Compile Include="HttpResponseMessageExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

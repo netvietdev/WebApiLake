@@ -11,7 +11,7 @@ namespace Rabbit.WebApi.Filters.ValidationHandlers
     /// <summary>
     /// Parses model state and set all errors on response
     /// </summary>
-    public sealed class DefaultValidationHandler : IValidationHandler
+    public sealed class BadRequestValidationHandler : IValidationHandler
     {
         public void Validate(HttpActionContext actionContext)
         {
