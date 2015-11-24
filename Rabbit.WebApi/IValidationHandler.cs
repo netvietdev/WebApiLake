@@ -1,6 +1,6 @@
 ﻿using System.Web.Http.Controllers;
 
-namespace Rabbit.WebApi.Filters.ValidationHandlers
+namespace Rabbit.WebApi
 {
     public interface IValidationHandler
     {

@@ -32,10 +32,12 @@
   <ItemGroup>
     <Compile Include="Filters\CustomExceptionFilterAttribute.cs" />
     <Compile Include="Filters\ExceptionHandlers\CatchAllExceptionHandler.cs" />
-    <Compile Include="Filters\ExceptionHandlers\IExceptionHandler.cs" />
+    <Compile Include="IExceptionHandler.cs" />
     <Compile Include="Filters\ModelValidationFilterAttribute.cs" />
     <Compile Include="Filters\ValidationHandlers\BadRequestValidationHandler.cs" />
-    <Compile Include="Filters\ValidationHandlers\IValidationHandler.cs" />
+    <Compile Include="IValidationHandler.cs" />
+    <Compile Include="ParameterRequiredAttribute.cs" />
+    <Compile Include="Filters\ValidationHandlers\ParameterRequiredValidationHandler.cs" />
     <Compile Include="HttpResponseMessageExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

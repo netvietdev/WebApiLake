@@ -1,6 +1,6 @@
 ﻿using System.Web.Http.Filters;
 
-namespace Rabbit.WebApi.Filters.ExceptionHandlers
+namespace Rabbit.WebApi
 {
     public interface IExceptionHandler
     {
